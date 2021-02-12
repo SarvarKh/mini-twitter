@@ -3,7 +3,7 @@
 	<article class="media box">
 		<figure class="media-left">
 			<p class="image is-64x64">
-				<%= image_tag avatar_url(@user), width: '152', height: '152', class: 'round-img' %>
+				<%= gravatar_image_tag(current_user.email, size: 64, alt: current_user.name) %>
 			</p>
 		</figure>
 		<div class="media-content">
@@ -18,7 +18,7 @@
   	<article class="media">
   		<div class="media-left">
   			<figure class="image is-64x64">
-  				<%= image_tag avatar_url(@user), width: '152', height: '152', class: 'round-img' %>
+  				<%= gravatar_image_tag(tweet.user.email, size: 64, alt: tweet.user.name) %>
   			</figure>
   		</div>
   		<div class="media-content">
