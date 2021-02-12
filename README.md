@@ -86,4 +86,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
+This project is originally built by Andy Leverenz [Web-Crunch](https://web-crunch.com/). Any rights might be licensed by the author.
 This project is [MIT](https://en.wikipedia.org/wiki/MIT_License) licensed.
